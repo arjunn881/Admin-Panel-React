@@ -1,0 +1,46 @@
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1200px;
+   
+}
+.logo{
+    cursor: pointer;
+    
+
+
+}
+
+
+.menuitem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    list-style-type: none;
+    height:100px;
+    width: 130px;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    
+    
+    
+}
+
+.menuitemcon{
+    display: flex;
+
+}
+.menuitemcon :hover{
+    color:darkorange;
+}
+.logout:hover{
+    color:darkorange;
+}
+.logout{
+    cursor: pointer;
+}
