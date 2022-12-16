@@ -1,13 +1,14 @@
 
 import './App.css';
 import Topbar from './component/topbar/topbar';
-import Footer from './component/Footer/Footer'
+import AllRoutes from './AllRoutes/AllRoutes';
+
 
 function App() {
   return (
     <div className="App">
       <Topbar/>
-      <Footer/>
+      <AllRoutes/>
     </div>
   );
 }
